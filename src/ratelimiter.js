@@ -36,7 +36,7 @@ module.exports.canSpawn = function(limits, serviceName) {
 		previousSpawns = db.get('spawns')
 			.filter({ serviceName: serviceName })
 			.value();
-
+			
 		// initialize spawn counter (count spawns that have occurred within the
 		// given spawn window)
 		// timePtr is the time when the spawn interval in question begins. We want
