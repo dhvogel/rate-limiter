@@ -15,9 +15,6 @@ module.exports.canSpawn = function(limits, serviceName) {
 	// make sure the required inputs exist, else return false
 	if (!limits || !serviceName) return false;
 
-	// if there are no limits on service spawning, return true
-	if (limits.length === 0) return true;
-
 	// UTC Timestamp of current time
 	const curTime = Date.now();
 
