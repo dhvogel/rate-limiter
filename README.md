@@ -18,6 +18,6 @@ $ npm test
 ```
 
 ## Documentation
-- Inline with ratelimiter
+- Inline with ratelimiter.js
 - Tests document specific edge cases
 - `src/example.js` contains example cases
